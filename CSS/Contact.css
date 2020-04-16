@@ -3,8 +3,15 @@ body {
     flex-wrap: wrap;
     background-image: url(../images/DSC_1239.JPG);
     background-size: cover;
+}
+
+ .container p {
+    text-align: center;
+    font-family: 'Candara', sans-serif;
+    font-weight: 800;
+    font-size: x-large;
  }
- 
+
  input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -51,7 +58,9 @@ body {
   .container {
     border-radius: 5px;
     background: rgba(50, 50, 50, 0.8);
-    padding: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
     text-align: left;
     margin: auto;
     margin-top: 3%;

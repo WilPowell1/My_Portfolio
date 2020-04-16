@@ -1,7 +1,7 @@
   .container{
     display: flex;
     flex-wrap: wrap;
-    background: url(images/DSC_1251.JPG) no-repeat;
+    background: url(../images/DSC_1251.JPG) no-repeat;
     background-size: cover;
   }
 
