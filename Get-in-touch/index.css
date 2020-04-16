@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/DSC_1239.JPG);
+    background-size: cover;
+ }
+ 
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #4a29b6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  #submit {
+    background-color: rgb(35, 153, 143);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 2px solid #4a29b6;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background-color: #4a29b6;
+  }
+
+  #clear {
+    background-color: rgb(35, 153, 143);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 2px solid #4a29b6;
+    cursor: pointer;
+  }
+
+  #clear:hover {
+    background-color: #4a29b6;
+  }
+
+  .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    margin-top: 3%;
+    width: 450px;
+    font-family: 'Candara', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color: white;   
+    border: 2px solid #4a29b6;
+    border-radius: 20px;
+  } 
