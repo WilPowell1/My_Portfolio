@@ -22,6 +22,7 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    border: 2px solid #4a29b6;
   }
 
   .content h1{

@@ -23,29 +23,18 @@ body {
     resize: vertical
   }
   
-  #submit {
+  #submit, #clear {
+    width: 30%;
     background-color: rgb(35, 153, 143);
     color: white;
     padding: 12px 20px;
     border-radius: 10px;
     border: 2px solid #4a29b6;
     cursor: pointer;
+    text-align: center;
   }
 
-  #submit:hover {
-    background-color: #4a29b6;
-  }
-
-  #clear {
-    background-color: rgb(35, 153, 143);
-    color: white;
-    padding: 12px 20px;
-    border-radius: 10px;
-    border: 2px solid #4a29b6;
-    cursor: pointer;
-  }
-
-  #clear:hover {
+  #submit:hover, #clear:hover {
     background-color: #4a29b6;
   }
 
