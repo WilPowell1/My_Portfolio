@@ -1,0 +1,65 @@
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    background: url(images/DSC_1251.JPG) no-repeat;
+    background-size: cover;
+  }
+
+  .content{
+    width: 450px;
+    background: rgba(50, 50, 50, 0.4);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color:white;
+    font-family: 'Candara', sans-serif;
+    border: 2px solid #4a29b6;
+    border-radius: 20px;
+  }
+
+  .content-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .content h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 50;
+  }
+
+  .content h4{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+
+  .content p{
+    text-align: justify;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .content li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+
+  .content li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+
+  .content li a:hover{
+    color: #b9b9b9c4;
+  }
+
+  
