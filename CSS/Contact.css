@@ -1,52 +1,55 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(../images/DSC_1239.JPG);
+    background-color: teal;
     background-size: cover;
 }
 
- .container p {
+.container p {
     text-align: center;
-    font-family: 'Candara', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: x-large;
- }
+}
 
- input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
-    border: 2px solid #4a29b6;
+    border: 2px solid rgb(172, 42, 19);
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
-  }
-  
-  #submit, #clear {
+}
+
+#submit,
+#clear {
     width: 30%;
-    background-color: rgb(35, 153, 143);
+    background-color: rgb(172, 42, 19);
     color: white;
     padding: 12px 20px;
     border-radius: 10px;
-    border: 2px solid #4a29b6;
+    border: 2px solid teal;
     cursor: pointer;
     text-align: center;
-  }
+}
 
-  #submit:hover, #clear:hover {
-    background-color: #4a29b6;
-  }
+#submit:hover,
+#clear:hover {
+    background-color: teal;
+}
 
-  .buttons {
+.buttons {
     display: flex;
     width: 100%;
     justify-content: space-between;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
-    background: rgba(50, 50, 50, 0.8);
+    background: teal;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 16px;
@@ -57,7 +60,32 @@ body {
     font-family: 'Candara', sans-serif;
     font-weight: 500;
     font-size: large;
-    color: white;   
-    border: 2px solid #4a29b6;
+    color: white;
+    border: 10px solid rgb(172, 42, 19);
     border-radius: 20px;
-  } 
+}
+
+ul {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container li {
+    display: inline-flex;
+    margin: 6px;
+    list-style: none;
+}
+
+.container li a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.container li a:hover {
+    color: #b9b9b9c4;
+}
