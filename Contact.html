@@ -56,15 +56,28 @@
         </form>
 
         <script>
-            document.getElementById("submit").onclick = function() {
+            document.getElementById("submit").addEventListener('click',
+                submitForm)
+
+            function submitForm() {
                 const fname = document.getElementById("fname").value;
                 const lname = document.getElementById("lname").value;
-                const emailAddress = document.getElementById("email").value;
+                const email = document.getElementById("email").value;
                 const subject = document.getElementById("subject").value;
                 window.alert(`${fname} ${lname}
 ${email}
 ${subject}`);
-            }
+            };
+
+            document.getElementById("clear").addEventListener('click',
+                clearForm)
+
+            function clearForm() {
+                document.getElementById("fname").reset;
+                document.getElementById("lname").reset;
+                document.getElementById("email").reset;
+                document.getElementById("subject").reset;
+            };
         </script>
     </div>
 
