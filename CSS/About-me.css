@@ -12,17 +12,25 @@ body {
 nav {
     display: flex;
     width: 100%;
-    height: 50px;
     align-items: center;
-    padding: 55px;
+    justify-content: space-between;
     position: fixed;
     background-color: teal;
     z-index: 1;
 }
 
 .logo {
-    display: inline-flex;
-    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .logo #wil {
@@ -56,6 +64,7 @@ nav li {
     border-bottom: 3px solid black;
     border-right: 3px solid black;
     border-radius: 50px;
+    margin: 10px;
 }
 
 nav li:hover {
@@ -87,8 +96,8 @@ nav li a:active {
     background-position-y: 4rem;
     background-attachment: fixed;
     width: 100%;
-    height: 600px;
-    position: relative;
+    height: 700px;
+    background-size: cover;
 }
 
 .box-2 {
@@ -111,7 +120,8 @@ nav li a:active {
     flex-flow: row wrap;
     justify-content: space-evenly;
     width: 100%;
-    height: 250px;
+    box-sizing: border-box;
+    padding: 30px;
     background-color: rgb(172, 42, 19);
 }
 
@@ -120,14 +130,16 @@ nav li a:active {
     opacity: 0.5;
     width: 700px;
     height: 300px;
-    margin: 120px;
+    margin-left: 50px;
     border-radius: 30px;
     padding: 20px 20px;
     text-align: justify;
 }
 
 .colour-overlay {
-    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to right, black 40%, transparent);
