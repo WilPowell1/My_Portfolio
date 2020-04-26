@@ -4,12 +4,14 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     background-color: teal;
     flex-wrap: wrap;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
 nav {
@@ -17,9 +19,10 @@ nav {
     width: 100%;
     height: 50px;
     align-items: center;
-    padding: 45px 6%;
-    font-family: 'Lato', sans-serif;
-    position: sticky;
+    padding: 55px;
+    position: fixed;
+    background-color: teal;
+    z-index: 1;
 }
 
 .logo {
@@ -51,8 +54,9 @@ nav {
 }
 
 nav li {
+    display: inline-flex;
     align-items: flex-end;
-    padding: 6px 12px;
+    padding: 0 12px;
     background-color: rgb(172, 42, 19);
     border-bottom: 3px solid black;
     border-right: 3px solid black;
@@ -60,11 +64,9 @@ nav li {
 }
 
 nav li:hover {
-    padding: 6px 12px;
     background-color: black;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    border-radius: 50px;
+    border-bottom: 3px solid rgb(172, 42, 19);
+    border-right: 3px solid rgb(172, 42, 19);
 }
 
 nav li a {
@@ -84,7 +86,7 @@ nav li a:active {
 }
 
 .content {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 450px;
     background-color: teal;
     padding: 30px;
