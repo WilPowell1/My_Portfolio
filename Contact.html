@@ -64,19 +64,12 @@
                 const lname = document.getElementById("lname").value;
                 const email = document.getElementById("email").value;
                 const subject = document.getElementById("subject").value;
-                window.alert(`${fname} ${lname}
-${email}
-${subject}`);
-            };
 
-            document.getElementById("clear").addEventListener('click',
-                clearForm)
-
-            function clearForm() {
-                document.getElementById("fname").reset;
-                document.getElementById("lname").reset;
-                document.getElementById("email").reset;
-                document.getElementById("subject").reset;
+                if (fname !== '' && lname !== '' && email !== '' && subject !== '') {
+                    window.alert(`${fname} ${lname} ${email} ${subject}`)
+                } else {
+                    window.alert("Please complete all fields");
+                }
             };
         </script>
     </div>
